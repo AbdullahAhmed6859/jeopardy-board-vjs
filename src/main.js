@@ -8,6 +8,7 @@ import q2 from "./assets/images/q2.png";
 import q4 from "./assets/images/q4.png";
 import q5 from "./assets/images/q5.png";
 import q6 from "./assets/images/q6.png";
+import bio_q6 from "./assets/images/bio_q6.png";
 
 const jeopardyCategories = [
   {
@@ -59,64 +60,37 @@ const jeopardyCategories = [
     questions: [
       {
         question:
-          "What is the process in which water molecules move from an area of lower concentration to an area of higher concentration through a semipermeable membrane? <br/><br/> A) Diffusion <br/> B) Osmosis <br/> C) Active transport <br/> D) Filtration",
-        answer: "B) Osmosis",
-        options: [
-          "A) Diffusion",
-          "B) Osmosis",
-          "C) Active transport",
-          "D) Filtration",
-        ],
+          "Viruses are called non-cellular infections entities because:<br/><br/>A. They are pathogens and cause infections<br/>B. They can replicate inside and outside the living cell<br/>C. They cause infections and can only replicate inside living cell (correct)<br/>D. They can affect the host",
+        answer:
+          "C. They cause infections and can only replicate inside living cell",
         level: 10,
       },
       {
         question:
-          " Is the following statement true or false: <br/> Gluconeogenesis refers to the process of synthesizing glucose from non-carbohydrate precursors in the body.",
-        answer: "True",
-        options: ["True", "False"],
+          "Which of the following is not a function of the liver?<br/><br/>A. Detoxification of harmful substances<br/>B. Production of bile<br/>C. Regulation of blood sugar levels<br/>D. Storage of oxygen (correct)",
+        answer: "D. Storage of oxygen",
         level: 20,
       },
       {
         question:
-          "Which of the following food tests is used to detect the presence of reducing sugars, such as glucose and maltose, in a food sample? <br/><br/> A) Benedict's test <br/> B) Biuret test <br/> C) Iodine test <br/> D) Sudan III test",
-        answer: "A) Benedict's test",
-        options: [
-          "A) Benedict's test",
-          "B) Biuret test",
-          "C) Iodine test",
-          "D) Sudan III test",
-        ],
+          "Which equation represents aerobic respiration in plant cells?<br/><br/>A. 6CO2 + 6H2O → C6H12O6 + 6O2<br/>B. 2C2H5OH + 2CO2 → C6H12O6<br/>C. C6H12O6 → 2C2H5OH + 2CO2<br/>D. C6H12O6 + 6O2 → 6CO2 + 6H2O (correct)",
+        answer: "D. C6H12O6 + 6O2 → 6CO2 + 6H2O",
         level: 30,
       },
       {
         question:
-          "Is the following statement true or false: <br/> Fungi is the third domain of life, distinct from Bacteria and Eukarya.",
-        answer: "False",
-        options: ["True", "False"],
+          "Which of the following is a type of sclerenchyma cells which is found in nut shells and provides protection?<br/><br/>A. Fibre<br/>B. Vessel<br/>C. Sclereid (correct)<br/>D. Tracheid",
+        answer: "C. Sclereid",
         level: 40,
       },
       {
         question:
-          "Which of the following genetic technologies is used to selectively amplify a specific DNA sequence and create many copies of it? <br/><br/> A) PCR (Polymerase Chain Reaction) <br/> B) Gel Electrophoresis <br/> C) DNA Sequencing <br/> D) Southern Blotting",
-        answer: "A) PCR (Polymerase Chain Reaction)",
-        options: [
-          "A) PCR (Polymerase Chain Reaction)",
-          "B) Gel Electrophoresis",
-          "C) DNA Sequencing",
-          "D) Southern Blotting",
-        ],
+          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A. enol.<br/>B. thiol. (correct)<br/>C. borole.<br/>D. pyrrole.",
+        answer: "B. thiol.",
         level: 50,
       },
       {
-        question:
-          "Down syndrome is primarily caused by the presence of an extra copy of which chromosome? <br/><br/> A) Chromosome 21 <br/> B) Chromosome 1 <br/> C) Chromosome 13 <br/> D) Chromosome 7",
-        answer: "A) Chromosome 21",
-        options: [
-          "A) Chromosome 21",
-          "B) Chromosome 1",
-          "C) Chromosome 13",
-          "D) Chromosome 7",
-        ],
+        question: `<img src=${bio_q6} width='800'> <br/> <br/> A) L-glucose does not fit into the active site of glucose oxidase. <br/> B) L-Glucose has a different Structural formual to D-Glucode <br/>C) L-Glucose is a synthetic sugar <br/>D) L-Glucose is the mirror image of D-Glucose`,
         level: 60,
       },
     ],
@@ -210,58 +184,44 @@ const jeopardyCategories = [
     questions: [
       {
         question:
-          "Which cybersecurity attack involves overwhelming a system with excessive traffic to make it unavailable? <br/><br/> a) Phishing <br/> b) Ransomware <br/> c) DDoS (Distributed Denial of Service) attack <br/> d) Social Engineering",
-        answer: "c) DDoS (Distributed Denial of Service) attack",
-        options: [
-          "a) Phishing",
-          "b) Ransomware",
-          "c) DDoS (Distributed Denial of Service) attack",
-          "d) Social Engineering",
-        ],
+          "Which of the following memories can a CPU directly communicate with?<br/><br/>A. Register <br/>B. CD-ROM<br/>C. DVD-ROM<br/>D. USB Flash drive",
+        answer: "A. Register",
         level: 10,
       },
       {
         question:
-          "Name one common programming language used for web development. <br/><br/> a) JavaScript <br/> b) C++ <br/> c) Fortran <br/> d) Rust",
-        answer: "JavaScript",
-        options: ["a) JavaScript", "b) C++", "c) Fortran", "Rust"],
+          "Which of the following is FALSE about assembly language?<br/><br/>A. It takes less memory space as compared to high-level languages.<br/>B. Debugging of programs is simplified as compared to machine code.<br/>C. Before running on a machine, an assembly language program requires a translator.<br/>D. Each assembly language instruction generates many machine language instructions. ",
+        answer:
+          "D. Each assembly language instruction generates many machine language instructions.",
         level: 20,
       },
       {
         question:
-          "Convert the following 8-bit binary number to hexadecimal? <br/> 0011 1110",
-        answer: "3E",
-        options: [],
+          "Which of the following is not a type of database?<br/><br/>A. Relational database<br/>B. Hierarchical database<br/>C. Object-oriented database<br/>D. Virtual database ",
+        answer: "D. Virtual database",
         level: 30,
       },
       {
         question:
-          "Which of the following languages is commonly used in a database management system? <br/><br/> a) DBMS <br/> b) C++ <br/> c) JavaScript <br/> d) MySQL",
-        answer: "MySQL",
-        options: [],
+          "Which of the following encryption algorithms is asymmetric?<br/><br/>A. RSA <br/>B. AES<br/>C. DES<br/>D. Blowfish",
+        answer: "A. RSA",
         level: 40,
       },
       {
         question:
-          "Express the complexity of a for loop using big O notation. <br/><br/> a) O(n) <br/> b) O(1) <br/> c) O(log(n)) <br/> d) O(n^2)",
-        answer: "O(n)",
-        options: ["a) O(n)", "a) O(1)", "a) O(log(n))", "a) O(n^2)"],
+          "In quantum computing, what is a qubit?<br/><br/>A. A binary representation of data<br/>B. A unit of classical memory<br/>C. A quantum version of the classical bit <br/>D. A quantum algorithm",
+        answer: "C. A quantum version of the classical bit",
         level: 50,
       },
       {
         question:
           "Which of these are not low-level programming languages? <br/><br/> a) Python <br/> b) Java <br/> c) Both a and b <br/> d) none of the above",
         answer: "c) Both A and B",
-        options: [
-          "a) Python",
-          "b) Java",
-          "c) Both a and b",
-          "none of the above",
-        ],
         level: 60,
       },
     ],
   },
+
   {
     genre: "Mystery",
     questions: [
