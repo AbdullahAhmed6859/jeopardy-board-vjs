@@ -162,60 +162,45 @@ const jeopardyCategories = [
       },
     ],
   },
+
   {
     genre: "Chemistry",
     questions: [
       {
         question:
-          "What is the process of a substance changing from a solid directly into a gas without becoming a liquid called? <br/><br/> a) Sublimation <br/> b) Condensation <br/> c) Vaporization <br/> d) Fusion",
-        answer: "a) Sublimation",
-        options: [
-          "a) Sublimation",
-          "b) Condensation",
-          "c) Vaporization",
-          "d) Fusion",
-        ],
+          "The identification of functional groups within a molecule is easily accomplished by:<br/><br/>A. mass spectrometry.<br/>B. infrared spectroscopy. <br/>C. ultraviolet-visible spectroscopy.<br/>D. nuclear magnetic resonance spectroscopy.",
+        answer: "B. infrared spectroscopy.",
         level: 10,
       },
       {
         question:
-          "What is the chemical symbol for gold? <br/><br/> A) Gd <br/> B) Go <br/> C) Au <br/> D) Ag",
-        answer: "C) Au",
-        options: ["A) Gd", "B) Go", "C) Au", "D) Ag"],
+          "Balance the chemical equation: C3H8 + O2 → CO2 + H2O.<br/><br/>A. C3H8 + 5 O2 → 3 CO2 + 4 H20 <br/>B. C3H8 + 4 O2 → 3 CO2 + 4 H20<br/>C. C3H8 + 6 O2 → 3 CO2 + 4 H20<br/>D. C3H8 + 3 O2 → 3 CO2 + 5 H20",
+        answer: "A. C3H8 + 5 O2 → 3 CO2 + 4 H20",
         level: 20,
       },
       {
-        question: "What is the chemical formula of potassium permanganate?",
-        answer: "KMnO4",
-        options: [],
+        question:
+          "When a non-volatile solute is added to a pure solvent, the<br/><br/>A. boiling point of the solution decreases.<br/>B. freezing point of the solution increases.<br/>C. vapour pressure of the solvent increases.<br/>D. rate of evaporation of the solvent decreases. ",
+        answer: "D. rate of evaporation of the solvent decreases.",
         level: 30,
       },
       {
         question:
-          "Which of these metal oxides are not alkalis? <br/><br/> A) NaOH <br/> B) KOH <br/> C) Cu(OH)2 <br/> D) Zn(OH)2 <br/> E) B and D <br/> F) C and D",
-        answer: "F) C and D",
-        options: [
-          "A) NaOH",
-          "B) KOH",
-          "C) Cu(OH)2",
-          "D) Zn(OH)2",
-          "E) B and D",
-          "F) C and D",
-        ],
+          "How many moles of oxygen gas are needed for the complete combustion of 1mol of (CH3)3COH?<br/><br/>A. 6<br/>B. 6.5<br/>C. 12<br/>D. 13",
+        answer: "A. 6",
         level: 40,
       },
       {
         question:
-          "Fluorine has the highest electronegativity on the Pauling Scale. (True/False)",
-        answer: "True",
-        options: ["True", "False"],
+          "Which of the following statements is FALSE for a phenol?<br/><br/>A. The conjugate base of phenol is more stable than a phenol molecule.<br/>B. The addition of a strong base to a phenol produces a reactive nucleophile.<br/>C. The O–H group attached to a benzene ring in phenol shows acidic properties.<br/>D. The negative charge in the phenoxide ion remains localized on the oxygen atom.",
+        answer:
+          "D. The negative charge in the phenoxide ion remains localized on the oxygen atom.",
         level: 50,
       },
       {
         question:
-          "Which instrument is commonly used to study the structure of molecules in chemistry?",
-        answer: "Spectrometer",
-        options: [],
+          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A. enol.<br/>B. thiol. <br/>C. borole.<br/>D. pyrrole.",
+        answer: "B. thiol.",
         level: 60,
       },
     ],
