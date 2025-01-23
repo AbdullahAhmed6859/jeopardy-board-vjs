@@ -1,12 +1,6 @@
 const game = document.getElementById("game");
-import a1 from "./assets/images/a1.png";
-import a4 from "./assets/images/a4.png";
-import a5 from "./assets/images/a5.png";
+
 import a6 from "./assets/images/a6.png";
-import q1 from "./assets/images/q1.png";
-import q2 from "./assets/images/q2.png";
-import q4 from "./assets/images/q4.png";
-import q5 from "./assets/images/q5.png";
 import q6 from "./assets/images/q6.png";
 import bio_q6 from "./assets/images/bio_q6.png";
 
@@ -60,32 +54,32 @@ const jeopardyCategories = [
     questions: [
       {
         question:
-          "Viruses are called non-cellular infections entities because:<br/><br/>A. They are pathogens and cause infections<br/>B. They can replicate inside and outside the living cell<br/>C. They cause infections and can only replicate inside living cell (correct)<br/>D. They can affect the host",
+          "Viruses are called non-cellular infections entities because:<br/><br/>A. They are pathogens and cause infections<br/>B. They can replicate inside and outside the living cell<br/>C. They cause infections and can only replicate inside living cell )<br/>D. They can affect the host",
         answer:
           "C. They cause infections and can only replicate inside living cell",
         level: 10,
       },
       {
         question:
-          "Which of the following is not a function of the liver?<br/><br/>A. Detoxification of harmful substances<br/>B. Production of bile<br/>C. Regulation of blood sugar levels<br/>D. Storage of oxygen (correct)",
+          "Which of the following is not a function of the liver?<br/><br/>A. Detoxification of harmful substances<br/>B. Production of bile<br/>C. Regulation of blood sugar levels<br/>D. Storage of oxygen )",
         answer: "D. Storage of oxygen",
         level: 20,
       },
       {
         question:
-          "Which equation represents aerobic respiration in plant cells?<br/><br/>A. 6CO2 + 6H2O → C6H12O6 + 6O2<br/>B. 2C2H5OH + 2CO2 → C6H12O6<br/>C. C6H12O6 → 2C2H5OH + 2CO2<br/>D. C6H12O6 + 6O2 → 6CO2 + 6H2O (correct)",
+          "Which equation represents aerobic respiration in plant cells?<br/><br/>A. 6CO2 + 6H2O → C6H12O6 + 6O2<br/>B. 2C2H5OH + 2CO2 → C6H12O6<br/>C. C6H12O6 → 2C2H5OH + 2CO2<br/>D. C6H12O6 + 6O2 → 6CO2 + 6H2O )",
         answer: "D. C6H12O6 + 6O2 → 6CO2 + 6H2O",
         level: 30,
       },
       {
         question:
-          "Which of the following is a type of sclerenchyma cells which is found in nut shells and provides protection?<br/><br/>A. Fibre<br/>B. Vessel<br/>C. Sclereid (correct)<br/>D. Tracheid",
+          "Which of the following is a type of sclerenchyma cells which is found in nut shells and provides protection?<br/><br/>A. Fibre<br/>B. Vessel<br/>C. Sclereid )<br/>D. Tracheid",
         answer: "C. Sclereid",
         level: 40,
       },
       {
         question:
-          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A. enol.<br/>B. thiol. (correct)<br/>C. borole.<br/>D. pyrrole.",
+          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A. enol.<br/>B. thiol. )<br/>C. borole.<br/>D. pyrrole.",
         answer: "B. thiol.",
         level: 50,
       },
@@ -99,44 +93,42 @@ const jeopardyCategories = [
     genre: "Mathematics",
     questions: [
       {
-        question: `<img src=${q1} alt='Description of the image'>`,
-        answer: `<img src=${a1} alt='Answer 1'>`,
-        options: [],
+        question:
+          "The complex number - 3(2 - i)+ 2(1+ i) can be expressed in the form of a + bi as<br/><br/>A) 4 - 5i<br/>B) 4 + 5i<br/>C) -4 + 5i<br/>D) - 4 - 5i",
+        answer: "C) - 4 + 5i",
         level: 10,
       },
       {
-        question: `<img src=${q2} alt='Description of the image'>`,
-        answer: "A). (2, -3)",
-        options: ["A) (2, -3)", "B) (-2, 3)", "C) (2, 3)", "D) (-2, -3)"],
+        question:
+          "Value of tan(675)° is:<br/><br/>A) √3<br/>B) 1<br/>C) -1/√3<br/>D) -1",
+        answer: "D) -1",
         level: 20,
       },
       {
-        question: "What are the first 10 prime numbers?",
-        answer: "2, 3, 5, 7, 11, 13, 17, 19, 23, 29",
-        options: [],
+        question:
+          "What is the magnitude of the vector 12i-8j-24k?<br/><br/>(A) 18<br/>(B) 28 )<br/>(C) 38<br/>(D) 48",
+        answer: "B) 28",
         level: 30,
       },
       {
-        question: `<img src=${q4} alt='Description of the image'>`,
-        answer: `<img src=${a4} alt='Description of the image'>`,
-        options: [],
+        question:
+          "If is one of the cube roots of unity, -20 will be<br/><br/>A) -1<br/>B) -w<br/>C) w<br/>D) 2w",
+        answer: "C) w",
         level: 40,
       },
       {
-        question: `<img src=${q5} alt='Description of the image'>`,
-        answer: `<img src=${a5} alt='Description of the image'>`,
-        options: [],
+        question:
+          "Distance between the parallel lines x+y-13=0 and 2x+2y+25=0 is:<br/><br/>A) 0<br/>B) 26<br/>C) 39√2<br/>D) 13√2",
+        answer: "D) 13√2",
         level: 50,
       },
       {
         question: `<img src=${q6} alt='Description of the image'>`,
         answer: `<img src=${a6} alt='Description of the image'>`,
-        options: [],
         level: 60,
       },
     ],
   },
-
   {
     genre: "Chemistry",
     questions: [
