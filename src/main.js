@@ -18,7 +18,7 @@ const jeopardyCategories = [
       {
         question:
           "2) The instantaneous and average velocity of a body are equal when it has______? <br/><br/> A) Non-uniform acceleration <br/> B) Zero acceleration <br/> C) Uniform acceleration <br/> D) Variable acceleration",
-        answer: "C) Uniform acceleration",
+        answer: "0",
         level: 20,
       },
       {
@@ -84,7 +84,7 @@ const jeopardyCategories = [
         level: 50,
       },
       {
-        question: `<img src=${bio_q6} width='800'> <br/> <br/> A) L-glucose does not fit into the active site of glucose oxidase. <br/> B) L-Glucose has a different Structural formual to D-Glucode <br/>C) L-Glucose is a synthetic sugar <br/>D) L-Glucose is the mirror image of D-Glucose`,
+        question: `<img src=${bio_q6} width='600'> <br/> <br/> A) L-glucose does not fit into the active site of glucose oxidase. <br/> B) L-Glucose has a different Structural formual to D-Glucode <br/>C) L-Glucose is a synthetic sugar <br/>D) L-Glucose is the mirror image of D-Glucose`,
         answer:
           "A) L-glucose does not fit into the active site of glucose oxidase. ",
         level: 60,
@@ -221,67 +221,39 @@ const jeopardyCategories = [
     questions: [
       {
         question:
-          "What are some common applications or uses of DNA in various fields? <br/><br/> A) DNA is used for generating electricity. <br/> B) DNA is employed in agriculture for pest control. <br/> C) DNA is utilized in forensic science for crime scene analysis. <br/> D) DNA is a source of fuel for vehicles.",
-        answer:
-          "C) DNA is utilized in forensic science for crime scene analysis.",
-        options: [
-          "A) DNA is used for generating electricity.",
-          "B) DNA is employed in agriculture for pest control.",
-          "C) DNA is utilized in forensic science for crime scene analysis.",
-          "D) DNA is a source of fuel for vehicles.",
-        ],
-        level: 10,
-      },
-      {
-        question:
-          "What happens when a massive star collapses under its gravity, forming a region in space with gravitational forces so strong that nothing, not even light, can escape? <br/><br/> A) The star expands and becomes a red giant. <br/> B) The star transforms into a neutron star. <br/> C) The star collapses to form a black hole. <br/> D) The star releases a burst of energy known as a supernova.",
-        answer: "C) The star collapses to form a black hole.",
-        options: [
-          "A) The star expands and becomes a red giant.",
-          "B) The star transforms into a neutron star.",
-          "C) The star collapses to form a black hole.",
-          "D) The star releases a burst of energy known as a supernova.",
-        ],
-        level: 20,
-      },
-      {
-        question:
-          "What does HTTP stand for in the context of web communication? <br/><br/>  a) HyperText Transmission Protocol <br/> b) HyperText Transfer Protocol <br/> c) HyperTransfer Text Protocol <br/> d) High-Tech Transport Protocol ",
-        answer: "b) HyperText Transfer Protocol",
-        options: [],
-        level: 30,
-      },
-      {
-        question:
-          "What is the pH of a mixture of hydrochloric acid (HCl) and vinegar? <br/><br/> A) Greater than 7 <br/> B) Less than 2.5  <br/> C) Between 2.5 and 7  <br/> D) Exactly 7",
-        answer: "B) Less than 2.5 ",
-        options: [
-          "A) Greater than 7",
-          "B) Less than 2.5",
-          "C) Between 2.5 and 7",
-          "D) Exactly 7",
-        ],
-        level: 40,
-      },
-      {
-        question:
-          "If sin(x) = 3/5 and cos(x) < 0, what is the value of tan(x)? <br/><br/>  A) 3/5 <br/> B) 4/3 <br/> C) −(4/3) <br/> D) −(3/4)",
-        answer: "C) −(4/3)",
-        options: ["A) 3/5", "B) 4/3", "C) −(4/3)", "D) −(3/4)"],
+          "Who was the first woman to win a Nobel Prize in Physics for her pioneering work on radioactivity?<br/><br/>A) Rosalind Franklin<br/>B) Ada Lovelace<br/>C) Marie Curie<br/>D) Katherine Johnson",
+        answer: "C) Marie Curie",
         level: 50,
       },
       {
         question:
-          "Which of the following statements best describes the concept of perpetual motion? <br/><br/> A) A system that can continuously produce energy without any external input. <br/> B) A machine that operates indefinitely without any loss of energy due to friction or other factors. <br/> C) The idea that a system can create energy from nothing and operate perpetually. <br/> D) A device that can violate the laws of thermodynamics by sustaining motion indefinitely.",
-        answer:
-          "B) A machine that operates indefinitely without any loss of energy due to friction or other factors.",
-        options: [
-          "A) A system that can continuously produce energy without any external input.",
-          "B) A machine that operates indefinitely without any loss of energy due to friction or other factors.",
-          "C) The idea that a system can create energy from nothing and operate perpetually.",
-          "D) A device that can violate the laws of thermodynamics by sustaining motion indefinitely.",
-        ],
-        level: 60,
+          "Who is known as the first computer programmer for her work on Charles Babbage's Analytical Engine?<br/><br/>A) Grace Hopper<br/>B) Ada Lovelace<br/><br/>C) Hedy Lamarr<br/>D) Margaret Hamilton",
+        level: 50,
+        answer: "B) Ada Lovelace",
+      },
+      {
+        question:
+          "Who was the first African-American woman to earn a PhD from MIT and is known for her work in theoretical physics and fiber optics?<br/>A) Mae Jemison<br/>B) Shirley Ann Jackson<br/>C) Dorothy Vaughan<br/>D) Katherine Johnson",
+        answer: "B) Shirley Ann Jackson",
+        level: 50,
+      },
+      {
+        question:
+          "Which woman in STEM developed the first compiler for a computer programming language, paving the way for modern programming?<br/><br/>A) Jean Bartik<br/>B) Frances E. Allen<br/>C) Grace Hopper<br/>D) Mary Lou Jepsen",
+        level: 50,
+        answer: "C) Grace Hopper",
+      },
+      {
+        question:
+          "Which female mathematician made major contributions to abstract algebra and topology but faced significant discrimination, leading to her exclusion from an academic career in Germany?<br/><br/>/A) Emmy Noether<br/>B) Sofia Kovalevskaya<br/>C) Mary Cartwright<br/>D) Émilie du Châtelet",
+        answer: "A) Emmy Noether",
+        level: 50,
+      },
+      {
+        question:
+          "Which woman in STEM helped develop the Monte Carlo method, a groundbreaking algorithm for solving complex mathematical problems, while working on the Manhattan Project?<br/><br/>A) Joan Curran<br>/B) Leona Woods<br>/C) Stanisława Ulam<br/>D) Mary Tsingou",
+        answer: "C) Stanisława Ulam",
+        level: 50,
       },
     ],
   },
