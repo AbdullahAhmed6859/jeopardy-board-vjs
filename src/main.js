@@ -32,7 +32,7 @@ const jeopardyCategories = [
         question:
           "4) Which of the following best describes the behavior of an electron in the double-slit experiment?<br/><br/>A) The electron always follows a single, predictable path <br/>B) The electron behaves like a classical particle with a definite trajectory <br/>C) The electron demonstrates both wave-like and particle-like properties<br/>D) The electron disappears when observed",
         answer:
-          "The electron demonstrates both wave-like and particle-like properties",
+          "C) The electron demonstrates both wave-like and particle-like properties",
         level: 40,
       },
       {
@@ -79,8 +79,8 @@ const jeopardyCategories = [
       },
       {
         question:
-          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A) enol.<br/>B) thiol.<br/>C) borole.<br/>D) pyrrole.",
-        answer: "B) thiol.",
+          "Which statement is correct about glycolysis process?<br/>A) 2 ATP are produced amd 2 ATP are consumed<br/>B) 1 ATP is produced and 2 are consumed<br/>C) 2 ATP is produced and 1 is consumed<br/>D) 4 ATP is produced and 2 are consumed",
+        answer: "D) 4 ATP is produced and 2 are consumed",
         level: 50,
       },
       {
