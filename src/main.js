@@ -54,37 +54,39 @@ const jeopardyCategories = [
     questions: [
       {
         question:
-          "Viruses are called non-cellular infections entities because:<br/><br/>A. They are pathogens and cause infections<br/>B. They can replicate inside and outside the living cell<br/>C. They cause infections and can only replicate inside living cell )<br/>D. They can affect the host",
+          "Viruses are called non-cellular infections entities because:<br/><br/>A. They are pathogens and cause infections<br/>B. They can replicate inside and outside the living cell<br/>C. They cause infections and can only replicate inside living cell<br/>D. They can affect the host",
         answer:
           "C. They cause infections and can only replicate inside living cell",
         level: 10,
       },
       {
         question:
-          "Which of the following is not a function of the liver?<br/><br/>A. Detoxification of harmful substances<br/>B. Production of bile<br/>C. Regulation of blood sugar levels<br/>D. Storage of oxygen )",
+          "Which of the following is not a function of the liver?<br/><br/>A. Detoxification of harmful substances<br/>B. Production of bile<br/>C. Regulation of blood sugar levels<br/>D. Storage of oxygen",
         answer: "D. Storage of oxygen",
         level: 20,
       },
       {
         question:
-          "Which equation represents aerobic respiration in plant cells?<br/><br/>A. 6CO2 + 6H2O → C6H12O6 + 6O2<br/>B. 2C2H5OH + 2CO2 → C6H12O6<br/>C. C6H12O6 → 2C2H5OH + 2CO2<br/>D. C6H12O6 + 6O2 → 6CO2 + 6H2O )",
+          "Which equation represents aerobic respiration in plant cells?<br/><br/>A. 6CO2 + 6H2O → C6H12O6 + 6O2<br/>B. 2C2H5OH + 2CO2 → C6H12O6<br/>C. C6H12O6 → 2C2H5OH + 2CO2<br/>D. C6H12O6 + 6O2 → 6CO2 + 6H2O",
         answer: "D. C6H12O6 + 6O2 → 6CO2 + 6H2O",
         level: 30,
       },
       {
         question:
-          "Which of the following is a type of sclerenchyma cells which is found in nut shells and provides protection?<br/><br/>A. Fibre<br/>B. Vessel<br/>C. Sclereid )<br/>D. Tracheid",
+          "Which of the following is a type of sclerenchyma cells which is found in nut shells and provides protection?<br/><br/>A. Fibre<br/>B. Vessel<br/>C. Sclereid<br/>D. Tracheid",
         answer: "C. Sclereid",
         level: 40,
       },
       {
         question:
-          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A. enol.<br/>B. thiol. )<br/>C. borole.<br/>D. pyrrole.",
+          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A. enol.<br/>B. thiol.<br/>C. borole.<br/>D. pyrrole.",
         answer: "B. thiol.",
         level: 50,
       },
       {
         question: `<img src=${bio_q6} width='800'> <br/> <br/> A) L-glucose does not fit into the active site of glucose oxidase. <br/> B) L-Glucose has a different Structural formual to D-Glucode <br/>C) L-Glucose is a synthetic sugar <br/>D) L-Glucose is the mirror image of D-Glucose`,
+        answer:
+          "A) L-glucose does not fit into the active site of glucose oxidase. ",
         level: 60,
       },
     ],
