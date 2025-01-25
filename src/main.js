@@ -142,8 +142,8 @@ const jeopardyCategories = [
       },
       {
         question:
-          "Balance the chemical equation: C3H8 + O2 → CO2 + H2O.<br/><br/>A) C3H8 + 5 O2 → 3 CO2 + 4 H20 <br/>B) C3H8 + 4 O2 → 3 CO2 + 4 H20<br/>C) C3H8 + 6 O2 → 3 CO2 + 4 H20<br/>D) C3H8 + 3 O2 → 3 CO2 + 5 H20",
-        answer: "A) C3H8 + 5 O2 → 3 CO2 + 4 H20",
+          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A) enol.<br/>B) thiol. <br/>C) borole.<br/>D) pyrrole.",
+        answer: "B) thiol.",
         level: 20,
       },
       {
@@ -165,10 +165,11 @@ const jeopardyCategories = [
           "D) The negative charge in the phenoxide ion remains localized on the oxygen atom.",
         level: 50,
       },
+
       {
         question:
-          "A compound, analogous to alcohols, with the general formula RSH and a disagreeable odour is termed as<br/><br/>A) enol.<br/>B) thiol. <br/>C) borole.<br/>D) pyrrole.",
-        answer: "B) thiol.",
+          "Balance the chemical equation: C3H8 + O2 → CO2 + H2O.<br/><br/>A) C3H8 + 5 O2 → 3 CO2 + 4 H20 <br/>B) C3H8 + 4 O2 → 3 CO2 + 4 H20<br/>C) C3H8 + 6 O2 → 3 CO2 + 4 H20<br/>D) C3H8 + 3 O2 → 3 CO2 + 5 H20",
+        answer: "A) C3H8 + 5 O2 → 3 CO2 + 4 H20",
         level: 60,
       },
     ],
