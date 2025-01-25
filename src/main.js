@@ -18,7 +18,7 @@ const jeopardyCategories = [
       {
         question:
           "2) The instantaneous and average velocity of a body are equal when it has______? <br/><br/> A) Non-uniform acceleration <br/> B) Zero acceleration <br/> C) Uniform acceleration <br/> D) Variable acceleration",
-        answer: "0",
+        answer: "B) Zero acceleration",
         level: 20,
       },
       {
