@@ -227,7 +227,7 @@ const jeopardyCategories = [
       },
       {
         question:
-          "Who is known as the first computer programmer for her work on Charles Babbage's Analytical Engine?<br/><br/>A) Grace Hopper<br/>B) Ada Lovelace<br/><br/>C) Hedy Lamarr<br/>D) Margaret Hamilton",
+          "Who is known as the first computer programmer for her work on Charles Babbage's Analytical Engine?<br/><br/>A) Grace Hopper<br/>B) Ada Lovelace<br/>C) Hedy Lamarr<br/>D) Margaret Hamilton",
         level: 50,
         answer: "B) Ada Lovelace",
       },
@@ -245,13 +245,13 @@ const jeopardyCategories = [
       },
       {
         question:
-          "Which female mathematician made major contributions to abstract algebra and topology but faced significant discrimination, leading to her exclusion from an academic career in Germany?<br/><br/>/A) Emmy Noether<br/>B) Sofia Kovalevskaya<br/>C) Mary Cartwright<br/>D) Émilie du Châtelet",
+          "Which female mathematician made major contributions to abstract algebra and topology but faced significant discrimination, leading to her exclusion from an academic career in Germany?<br/><br/>A) Emmy Noether<br/>B) Sofia Kovalevskaya<br/>C) Mary Cartwright<br/>D) Émilie du Châtelet",
         answer: "A) Emmy Noether",
         level: 50,
       },
       {
         question:
-          "Which woman in STEM helped develop the Monte Carlo method, a groundbreaking algorithm for solving complex mathematical problems, while working on the Manhattan Project?<br/><br/>A) Joan Curran<br>/B) Leona Woods<br>/C) Stanisława Ulam<br/>D) Mary Tsingou",
+          "Which woman in STEM helped develop the Monte Carlo method, a groundbreaking algorithm for solving complex mathematical problems, while working on the Manhattan Project?<br/><br/>A) Joan Curran<br>B) Leona Woods<br>C) Stanisława Ulam<br/>D) Mary Tsingou",
         answer: "C) Stanisława Ulam",
         level: 50,
       },
